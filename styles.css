@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #7799ee;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 35px;
+}
+
+.header-text {
+    text-align: left;
+}
+
+.header-bullette{
+    list-style-type: disc;
+}
+.h-line{
+    padding: 0px;
+    margin: 1px;
+}
+.left-nav {
+    background-color: #5555ee; /* Change this to your desired background color */
+    text-align: left;
+    padding: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 15px; 
+    /*margin: 10px 0;*/
+    /*padding: 10px;
+    border: 2px solid #ffffff; /* Change this to your desired border color */
+    /*background-color: #0056b3; /* Change this to your desired background color */
+    /*border-radius: 5px; /* Optional: for rounded corners */
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+    color: #333;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+nav ul li a:hover {
+  background-color: #ddd; /* Change background on hover */
+}
+
+main {
+    margin: 30px 30px;
+}
+.bio-paragraph{
+    font-size:18px;
+    text-align:justify;
+    line-height: 1.5;
+}
+
+.bio-list{
+    display: block;
+    list-style-type: disc;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+    line-height:160%
+}
+
+.bio-list-item{
+    font-size:18px;
+}
+footer {
+    background-color: #7799ee;/*f8f9fa;*/
+    padding: 0 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/*          Contact Page           */
+.list-contact {
+    list-style: none; /* Remove default bullets */
+}
+.list-contact li::before {
+    content: url('resources/Email_icon.png'); /* Path to the first custom icon */
+    /*display: inline-block;*/
+    margin-right: 10px; /* Add spacing between icon and text */
+}
+
+.contact-list-item{
+    font-size:18px;
+}
